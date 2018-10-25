@@ -1293,13 +1293,10 @@ button.btn.btn-block {
   top: 50%;
   background-color: #ffffff;
   z-index: 100;
-  padding: 50px 70px;
+  padding: 50px 60px;
 }
-.contacts-on-map .list {
-  font-size: 15px;
-}
-.contacts-on-map .list > li {
-  margin: 12px 0;
+.contacts-on-map > div + div {
+  margin-top: 12px;
 }
 .contacts-on-map .fas {
   color: #fe4918;

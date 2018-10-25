@@ -5,11 +5,6 @@ import Layout from '../components/layout'
 const IndexPage = () => (
   <Layout>
     <section id="hero" className="hero-section bg1 bg-cover window-height light-text">
-      <ul className="socials-nav">
-          <li className="socials-nav-item"><a href="#test"><span className="fab fa-twitter"></span></a></li>
-          <li className="socials-nav-item"><a href="#test"><span className="fab fa-facebook"></span></a></li>
-          <li className="socials-nav-item"><a href="#test"><span className="fab fa-instagram"></span></a></li>
-      </ul>
       <div className="heading-block centered-block align-center">
           <div className="container">
               <h5 className="heading-alt"><span className="fas fa-calendar-alt base-clr-txt"></span>nov 8 <span className="fas fa-map-marker-alt base-clr-txt"></span>New York, NY</h5>
@@ -35,11 +30,11 @@ const IndexPage = () => (
           <div className="col-sm-10 col-xs-12 navigation-container">
               <div id="navigation" className="navbar-collapse collapse">
                   <ul className="navigation-list pull-left light-text">
-                      <li className="navigation-item"><a href="#speakers" className="navigation-link">Date & Location</a></li>
+                      <li className="navigation-item"><a href="#about" className="navigation-link">About</a></li>
                       <li className="navigation-item"><a href="#speakers" className="navigation-link">Speakers</a></li>
-                      <li className="navigation-item"><a href="#speakers" className="navigation-link">Sponsors</a></li>
-                      <li className="navigation-item"><a href="#speakers" className="navigation-link">Sessions</a></li>
-                      <li className="navigation-item"><a href="#speakers" className="navigation-link">Youtube Live Link</a></li>
+                      <li className="navigation-item"><a href="#sponsors" className="navigation-link">Sponsors</a></li>
+                      <li className="navigation-item"><a href="#sessions" className="navigation-link">Sessions</a></li>
+                      <li className="navigation-item"><a href="#map" className="navigation-link">Location</a></li>
                   </ul>
                   <a target="_blank" rel="noopener noreferrer" href="https://www.eventbrite.com/e/business-forum-on-trade-tourism-and-investment-in-indonesia-registration-50909800584" className="pull-right buy-btn">Register</a>
               </div>
@@ -181,9 +176,9 @@ const IndexPage = () => (
         <div className="container contacts-on-map-container">
           <div className="contacts-on-map">
             <h3 className="main-headline mt-0">Location</h3>
-            <div><i className="fas fa-map-marked-alt"></i>881 7th Ave New York, NY</div>
-            <div><i className="fas fa-clock"></i>7:30 - 22:00</div>
-            <div><i className="fas fa-envelope"></i>info@ventcamp.com</div>
+            <div><i className="fas fa-map-marked-alt"></i>300 W 44th St, New York, NY 10036</div>
+            <div><i className="fas fa-clock"></i>8:30 AM - 5:00 PM</div>
+            <div><i className="fas fa-envelope"></i>economicny@gmail.com</div>
           </div>
         </div>
       </div>
