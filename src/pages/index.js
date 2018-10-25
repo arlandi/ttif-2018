@@ -8,9 +8,6 @@ const IndexPage = () => (
       <ul className="socials-nav">
           <li className="socials-nav-item"><a href="#test"><span className="fab fa-twitter"></span></a></li>
           <li className="socials-nav-item"><a href="#test"><span className="fab fa-facebook"></span></a></li>
-          <li className="socials-nav-item"><a href="#test"><span className="fab fa-github"></span></a></li>
-          <li className="socials-nav-item"><a href="#test"><span className="fab fa-vimeo-square"></span></a></li>
-          <li className="socials-nav-item"><a href="#test"><span className="fab fa-google-plus"></span></a></li>
           <li className="socials-nav-item"><a href="#test"><span className="fab fa-instagram"></span></a></li>
       </ul>
       <div className="heading-block centered-block align-center">
@@ -100,28 +97,28 @@ const IndexPage = () => (
         <div className="row">
           <div className="col-sm-3">
             <div className="speaker">
-              <div className="photo-wrapper"><img alt="" src="http://placehold.it/500x500" className="img-responsive" /></div>
+              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
               <h3 className="name">Joseph Sahat Raja</h3>
               <p className="text-alt"><small>CEO<br/><br/>Telin</small></p>
             </div>
           </div>
           <div className="col-sm-3">
             <div className="speaker">
-              <div className="photo-wrapper"><img alt="" src="http://placehold.it/500x500" className="img-responsive" /></div>
+              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
               <h3 className="name">William Pegues</h3>
               <p className="text-alt"><small>Director<br/><br/>Structured Finance & Insurance Overseas Private Investment Corporation</small></p>
             </div>
           </div>
           <div className="col-sm-3">
             <div className="speaker">
-              <div className="photo-wrapper"><img alt="" src="http://placehold.it/500x500" className="img-responsive" /></div>
+              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
               <h3 className="name">Shinto Nugroho</h3>
               <p className="text-alt"><small>Chief Policy and Government Relations<br/><br/>GO-JEK</small></p>
             </div>
           </div>
           <div className="col-sm-3">
             <div className="speaker">
-              <div className="photo-wrapper"><img alt="" src="http://placehold.it/500x500" className="img-responsive" /></div>
+              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
               <h3 className="name">Fajrin Rasyid</h3>
               <p className="text-alt"><small>Co-Founder<br/><br/>Bukalapak</small></p>
             </div>
@@ -131,28 +128,28 @@ const IndexPage = () => (
         <div className="row">
           <div className="col-sm-3">
             <div className="speaker">
-              <div className="photo-wrapper"><img alt="" src="http://placehold.it/500x500" className="img-responsive" /></div>
+              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
               <h3 className="name">Arief Hidayat</h3>
               <p className="text-alt"><small>Head of Regional Government of the Special Region of Yogyakarta</small></p>
             </div>
           </div>
           <div className="col-sm-3">
             <div className="speaker">
-              <div className="photo-wrapper"><img alt="" src="http://placehold.it/500x500" className="img-responsive" /></div>
+              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
               <h3 className="name">Eri Wibowo</h3>
               <p className="text-alt"><small>Head Division, Financing & Investment<br/><br/>PT Sarana Multi Infrastruktur</small></p>
             </div>
           </div>
           <div className="col-sm-3">
             <div className="speaker">
-              <div className="photo-wrapper"><img alt="" src="http://placehold.it/500x500" className="img-responsive" /></div>
+              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
               <h3 className="name">Del Renigar</h3>
               <p className="text-alt"><small>Executive Director, Global Government Affairs & Policy<br/><br/>General Electric</small></p>
             </div>
           </div>
           <div className="col-sm-3">
             <div className="speaker">
-              <div className="photo-wrapper"><img alt="" src="http://placehold.it/500x500" className="img-responsive" /></div>
+              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
               <h3 className="name">Anne Patricia Sutanto</h3>
               <p className="text-alt"><small>CEO<br/><br/>PT Pan Brothers Tbk</small></p>
             </div>
@@ -162,7 +159,7 @@ const IndexPage = () => (
         <div className="row">
           <div className="col-sm-3 col-sm-offset-45">
             <div className="speaker">
-              <div className="photo-wrapper"><img alt="" src="http://placehold.it/500x500" className="img-responsive" /></div>
+              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
               <h3 className="name">Mari Elka Pangestu</h3>
               <p className="text-alt"><small>Former Trade Minister of Republic of Indonesia</small></p>
             </div>
