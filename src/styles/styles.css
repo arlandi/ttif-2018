@@ -1193,6 +1193,7 @@ button.btn.btn-block {
 }
 .sponsor.inline {
   vertical-align: middle;
+  max-width: 250px;
 }
 @media (max-width: 1199px) {
   .sponsor:not(.inline):not(.big) {
@@ -2203,6 +2204,9 @@ button.btn.btn-block {
 }
 .mb-60 {
   margin-bottom: 60px;
+}
+.mt-60 {
+  margin-top: 60px;
 }
 .mt-0 {
   margin-top: 0;

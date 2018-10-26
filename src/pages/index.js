@@ -2,6 +2,9 @@ import React from 'react'
 
 import Layout from '../components/layout'
 
+// Images
+import bniLogo from '../images/bni-logo.jpeg'
+
 const IndexPage = () => (
   <Layout>
     <section id="hero" className="hero-section bg1 bg-cover window-height light-text">
@@ -168,9 +171,35 @@ const IndexPage = () => (
       <div className="container">
         <h3 className="mb-60 main-headline">Sponsors</h3>
       </div>
+      <div className="sponsors">
+        <div className="sponsor inline"><img src={bniLogo} alt="" /></div>
+      </div>
     </section>
 
-    <section id="map">
+    <section id="sessions" className="section">
+      <div className="container">
+        <div className="row align-center">
+          <h3 className="mb-60 main-headline">One-on-One Sessions</h3>
+        </div>
+        <p>At TTIF you will be able to to schedule one on one meetings with Companies and Government Agencies. During One-on-One meetings you will have the opportunity to get specific answers pertaining to your business which include but not limited to:</p>
+        <ul>
+          <li>Learn about your company’s sales potential in Indonesia.</li>
+          <li>Assess challenges in the marketplace.</li>
+          <li>Understand how to capitalize on the latest free trade agreements.</li>
+          <li>Hone in on the best market opportunities.</li>
+          <li>Find out how the U.S. Commercial Service can help you identify new business partners.</li>
+        </ul>
+        <h4>Companies</h4>
+        <ul>
+          <li>General Electric</li>
+          <li>Overseas Private Investment Corporation</li>
+          <li>Telin (Telkom Indonesia) USA</li>
+        </ul>
+        <p>Please contact <a href="mailto:economicny@gmail.com">economicny@gmail.com</a> to schedule an appointment</p>
+      </div>
+    </section>
+
+    <section id="map" className="mt-60">
       <div className="contacts-wrapper">
         <iframe title="google-maps" className="map-frame" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=intercontinental%20hotel%20times%20square&key=AIzaSyCljp_s1lir-HRjlqpj4IdwCULGFtKnBBY" allowfullscreen></iframe>
         <div className="container contacts-on-map-container">
@@ -178,7 +207,7 @@ const IndexPage = () => (
             <h3 className="main-headline mt-0">Location</h3>
             <div><i className="fas fa-map-marked-alt"></i>300 W 44th St, New York, NY 10036</div>
             <div><i className="fas fa-clock"></i>8:30 AM - 5:00 PM</div>
-            <div><i className="fas fa-envelope"></i>economicny@gmail.com</div>
+            <div><i className="fas fa-envelope"></i><a href="mailto:economicny@gmail.com">economicny@gmail.com</a></div>
           </div>
         </div>
       </div>
