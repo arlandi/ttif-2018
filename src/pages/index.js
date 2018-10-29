@@ -3,6 +3,7 @@ import React from 'react'
 import Layout from '../components/layout'
 
 // Images
+import logo from '../images/logo.png'
 import bniLogo from '../images/bni-logo.jpeg'
 
 const IndexPage = () => (
@@ -11,8 +12,7 @@ const IndexPage = () => (
       <div className="heading-block centered-block align-center">
           <div className="container">
               <h5 className="heading-alt"><span className="fas fa-calendar-alt base-clr-txt"></span>nov 8 <span className="fas fa-map-marker-alt base-clr-txt"></span>New York, NY</h5>
-              <h1 className="extra-heading">Trade Tourism Investment Forum 2018</h1>
-              <h6 className="thin base-font">[Short description or tagline for event]</h6>
+              <h1 className="extra-heading">Business Forum on Trade, Tourism & Investment in Indonesia</h1>
               <div className="btns-container">
                   <a target="_blank" rel="noopener noreferrer" href="https://www.eventbrite.com/e/business-forum-on-trade-tourism-and-investment-in-indonesia-registration-50909800584" className="btn btn-md">REGISTER</a>
               </div>
@@ -20,10 +20,13 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <header className="header header-black">
+    <header className="header">
       <div className="header-wrapper">
         <div className="container">
           <div className="col-sm-2 col-xs-12 navigation-header">
+            <a href="/" className="logo">
+              <img src={logo} alt="VentCamp" />
+            </a>
             <button className="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation" aria-expanded="false" aria-controls="navigation">
                 <span className="icon-bar"></span>
                 <span className="icon-bar"></span>
@@ -181,19 +184,19 @@ const IndexPage = () => (
         <div className="row align-center">
           <h3 className="mb-60 main-headline">One-on-One Sessions</h3>
         </div>
-        <p>At TTIF you will be able to to schedule one on one meetings with Companies and Government Agencies. During One-on-One meetings you will have the opportunity to get specific answers pertaining to your business which include but not limited to:</p>
+        <p>BFTTI offers participants the chance to have one-on-one sessions with Indonesian companies and government agencies further discuss investment opportunities in Indonesia. In these sessions, participants can have unparalleled insights to get specific answers pertaining to their business and investments which may include the but not limited to:</p>
         <ul>
-          <li>Learn about your company’s sales potential in Indonesia.</li>
-          <li>Assess challenges in the marketplace.</li>
-          <li>Understand how to capitalize on the latest free trade agreements.</li>
-          <li>Hone in on the best market opportunities.</li>
-          <li>Find out how the U.S. Commercial Service can help you identify new business partners.</li>
+          <li>Learning about investment opportunities in Indonesia</li>
+          <li>Assessing challenges in the market and business environment</li>
+          <li>Understanding local regulations</li>
+          <li>Finding out how we can help you to identify new business partners</li>
         </ul>
         <h4>Companies</h4>
         <ul>
           <li>General Electric</li>
           <li>Overseas Private Investment Corporation</li>
           <li>Telin (Telkom Indonesia) USA</li>
+          <li>Special Region of Yogyakarta (DIY)</li>
         </ul>
         <p>Please contact <a href="mailto:economicny@gmail.com">economicny@gmail.com</a> to schedule an appointment</p>
       </div>

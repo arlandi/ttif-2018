@@ -8,7 +8,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   font-size: 15px;
   font-weight: 400;
-  color: #51545b;
+  color: #16254b;
   line-height: 1.5625;
 }
 .thin {
@@ -24,7 +24,8 @@ body {
   font-family: "Roboto", "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 .heading-font {
-  font-family: 'Montserrat', sans-serif;
+  /*font-family: 'Montserrat', sans-serif;*/
+  font-family: 'Lato', sans-serif;
 }
 .uppercase {
   text-transform: uppercase;
@@ -67,22 +68,23 @@ h5,
 h6,
 .h7 {
   /*font-family: "PT Sans Caption", Arial, "Helvetica Neue", Helvetica, sans-serif;*/
-  font-family: 'Montserrat', sans-serif;
+  /*font-family: 'Montserrat', sans-serif;*/
+  font-family: 'Lato', sans-serif;
   font-weight: 700;
 }
 h1,
 h2,
 h4,
 h5 {
-  color: #000000;
+  color: #16254b;
 }
 h3,
 h6,
 .h7 {
-  color: #262627;
+  color: #16254b;
 }
 .h8 {
-  color: #8d93a0;
+  color: #16254b;
 }
 h5.heading-alt {
   text-transform: uppercase;
@@ -134,9 +136,6 @@ small {
   color: #8d93a0;
 }
 a {
-  -webkit-transition: color 0.2s ease;
-  -moz-transition: color 0.2s ease;
-  -o-transition: color 0.2s ease;
   transition: color 0.2s ease;
   text-decoration: none;
 }
@@ -331,7 +330,7 @@ input[type=password].error,
 .header .buy-btn:active,
 .header .buy-btn.hovered,
 .header .buy-btn.pressed {
-  border-color: #fe4918;
+  border-color: #536bb2;
 }
 .base-clr-bg,
 .base-clr-ovl:before,
@@ -366,7 +365,7 @@ input[type=password].error,
 .navbar-toggle .icon-bar,
 .thumb-wrapper .overlay:before,
 .header .buy-btn {
-  background-color: #fe4918;
+  background-color: #536bb2;
 }
 .base-clr-txt,
 .highlight,
@@ -437,7 +436,7 @@ input[type="submit"] + .loading,
 .header.header-color .navigation-header .buy-btn.pressed,
 input.header.header-color .navigation-header .buy-btn,
 .header .buy-btn {
-  color: #fe4918;
+  color: #536bb2;
 }
 ::selection {
   color: #ffffff;
@@ -1053,6 +1052,7 @@ button.btn.btn-block {
   line-height: 14px;
   letter-spacing: 0.3em;
   margin: 0;
+  color: #16254b;
 }
 .speaker p small {
   font-size: 14px;
@@ -1300,7 +1300,7 @@ button.btn.btn-block {
   margin-top: 12px;
 }
 .contacts-on-map .fas {
-  color: #fe4918;
+  color: #536bb2;
   margin-right: 12px;
   width: 26px;
   font-size: 24px;
@@ -1456,7 +1456,7 @@ button.btn.btn-block {
 .navigation-header {
   zoom: 1;
   display: inline-block;
-  padding: 29px 0 0;
+  padding: 19px 0 0;
 }
 .navigation-header:before,
 .navigation-header:after {
@@ -1589,8 +1589,6 @@ button.btn.btn-block {
   text-decoration: none;
 }
 .navbar-collapse {
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
   box-shadow: none;
   padding: 0;
 }
@@ -1637,7 +1635,7 @@ button.btn.btn-block {
 }
 @media (min-width: 768px) {
   .header:not(.header-color):not(.header-black) .navbar-collapse {
-    background-color: #ffffff;
+    background-color: initial;
   }
   .header.header-color .navigation-link {
     color: #ffffff;
@@ -1653,7 +1651,7 @@ button.btn.btn-block {
   .header.header-color .navbar-collapse .buy-btn:active,
   .header.header-color .navbar-collapse .buy-btn.hovered,
   .header.header-color .navbar-collapse .buy-btn.pressed {
-    color: #fe4918;
+    color: #536bb2;
     background-color: #ffffff;
   }
 }
@@ -1945,7 +1943,7 @@ button.btn.btn-block {
 .hero-section {
   z-index: 1;
   overflow: hidden;
-  height: 90vh;
+  height: 87vh;
   display: flex;
   position: relative;
   justify-content: center;
@@ -2213,8 +2211,7 @@ button.btn.btn-block {
   margin-bottom: 28px;
 }
 .bg-primary {
-  background: linear-gradient(90deg,#f90048,#ff8922);
-  background-color: #f90048;
+  background: linear-gradient(90deg,#16254b,#536bb2);
   padding: 28px 0;
   margin: 60px 0;
 }
@@ -2236,12 +2233,13 @@ button.btn.btn-block {
 .main-headline:after {
   content: '';
   display: block;
-  height: 20px;
+  height: 17px;
   width: 100%;
-  background: linear-gradient(90deg,#f90048,#ff8922);
+  /*background: linear-gradient(90deg,#16254b,#536bb2);*/
+  background: #536bb2;
   position: absolute;
-  top: 38px;
+  top: 41px;
   left: 10px;
   z-index: -1;
-  opacity: 0.5;
+  opacity: 0.6;
 }
