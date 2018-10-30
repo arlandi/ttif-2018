@@ -23,7 +23,7 @@ const IndexPage = () => (
     <header className="header">
       <div className="header-wrapper">
         <div className="container">
-          <div className="col-sm-2 col-xs-12 navigation-header">
+          <div className="col-sm-3 col-xs-12 navigation-header">
             <a href="/" className="logo">
               <img src={logo} alt="VentCamp" />
             </a>
@@ -33,7 +33,7 @@ const IndexPage = () => (
                 <span className="icon-bar"></span>
             </button>
           </div>
-          <div className="col-sm-10 col-xs-12 navigation-container">
+          <div className="col-sm-9 col-xs-12 navigation-container">
               <div id="navigation" className="navbar-collapse collapse">
                   <ul className="navigation-list pull-left light-text">
                       <li className="navigation-item"><a href="#about" className="navigation-link">About</a></li>

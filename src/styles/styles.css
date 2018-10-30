@@ -1456,7 +1456,7 @@ button.btn.btn-block {
 .navigation-header {
   zoom: 1;
   display: inline-block;
-  padding: 19px 0 0;
+  padding: 8px 0 0;
 }
 .navigation-header:before,
 .navigation-header:after {
@@ -1474,6 +1474,9 @@ button.btn.btn-block {
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
+}
+.navigation-header .logo img {
+  height: 80px;
 }
 .navigation-header .buy-btn {
   margin: 9px 0 0;
