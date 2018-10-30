@@ -1033,7 +1033,7 @@ button.btn.btn-block {
   text-align: center;
 }
 .speaker .photo-wrapper {
-  margin: 0 auto 20px;
+  margin: 0 auto 12px;
   display: inline-block;
   max-width: 100%;
 }
@@ -1050,9 +1050,10 @@ button.btn.btn-block {
   font-weight: 700;
   text-transform: uppercase;
   line-height: 14px;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.3px;
   margin: 0;
   color: #16254b;
+  margin-bottom: 4px;
 }
 .speaker p small {
   font-size: 14px;

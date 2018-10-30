@@ -2,9 +2,23 @@ import React from 'react'
 
 import Layout from '../components/layout'
 
-// Images
+// Logos
 import logo from '../images/logo.png'
 import bniLogo from '../images/bni-logo.jpeg'
+import kjri from '../images/kjri.png'
+import bkpm from '../images/bkpm.png'
+import bi from '../images/bi.jpg'
+import bri from '../images/bri.jpg'
+
+// Speakers
+import joseph from '../images/joseph.jpg'
+import thomas from '../images/thomas.jpg'
+import william from '../images/william.jpg'
+import shinto from '../images/shinto.jpg'
+import fajrin from '../images/fajrin.jpg'
+import del from '../images/del.jpg'
+import anne from '../images/anne.jpg'
+import mari from '../images/mari.jpg'
 
 const IndexPage = () => (
   <Layout>
@@ -98,35 +112,42 @@ const IndexPage = () => (
         <div className="row">
           <div className="col-sm-3">
             <div className="speaker">
-              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
+              <div className="photo-wrapper"><img alt="" src={thomas} className="img-responsive" /></div>
+              <h3 className="name">Thomas Trikasih Lembong</h3>
+              <p className="text-alt"><small>Chairman<br/><br/>Indonesia Investment Coordinating Board</small></p>
+            </div>
+          </div>
+          <div className="col-sm-3">
+            <div className="speaker">
+              <div className="photo-wrapper"><img alt="" src={joseph} className="img-responsive" /></div>
               <h3 className="name">Joseph Sahat Raja</h3>
               <p className="text-alt"><small>CEO<br/><br/>Telin</small></p>
             </div>
           </div>
           <div className="col-sm-3">
             <div className="speaker">
-              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
+              <div className="photo-wrapper"><img alt="" src={william} className="img-responsive" /></div>
               <h3 className="name">William Pegues</h3>
               <p className="text-alt"><small>Director<br/><br/>Structured Finance & Insurance Overseas Private Investment Corporation</small></p>
             </div>
           </div>
           <div className="col-sm-3">
             <div className="speaker">
-              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
+              <div className="photo-wrapper"><img alt="" src={shinto} className="img-responsive" /></div>
               <h3 className="name">Shinto Nugroho</h3>
               <p className="text-alt"><small>Chief Policy and Government Relations<br/><br/>GO-JEK</small></p>
-            </div>
-          </div>
-          <div className="col-sm-3">
-            <div className="speaker">
-              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
-              <h3 className="name">Fajrin Rasyid</h3>
-              <p className="text-alt"><small>Co-Founder<br/><br/>Bukalapak</small></p>
             </div>
           </div>
         </div>
 
         <div className="row">
+          <div className="col-sm-3">
+            <div className="speaker">
+              <div className="photo-wrapper"><img alt="" src={fajrin} className="img-responsive" /></div>
+              <h3 className="name">Fajrin Rasyid</h3>
+              <p className="text-alt"><small>Co-Founder<br/><br/>Bukalapak</small></p>
+            </div>
+          </div>
           <div className="col-sm-3">
             <div className="speaker">
               <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
@@ -143,24 +164,24 @@ const IndexPage = () => (
           </div>
           <div className="col-sm-3">
             <div className="speaker">
-              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
+              <div className="photo-wrapper"><img alt="" src={del} className="img-responsive" /></div>
               <h3 className="name">Del Renigar</h3>
               <p className="text-alt"><small>Executive Director, Global Government Affairs & Policy<br/><br/>General Electric</small></p>
-            </div>
-          </div>
-          <div className="col-sm-3">
-            <div className="speaker">
-              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
-              <h3 className="name">Anne Patricia Sutanto</h3>
-              <p className="text-alt"><small>CEO<br/><br/>PT Pan Brothers Tbk</small></p>
             </div>
           </div>
         </div>
 
         <div className="row">
-          <div className="col-sm-3 col-sm-offset-45">
+          <div className="col-sm-3 col-sm-offset-3">
             <div className="speaker">
-              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
+              <div className="photo-wrapper"><img alt="" src={anne} className="img-responsive" /></div>
+              <h3 className="name">Anne Patricia Sutanto</h3>
+              <p className="text-alt"><small>CEO<br/><br/>PT Pan Brothers Tbk</small></p>
+            </div>
+          </div>
+          <div className="col-sm-3">
+            <div className="speaker">
+              <div className="photo-wrapper"><img alt="" src={mari} className="img-responsive" /></div>
               <h3 className="name">Mari Elka Pangestu</h3>
               <p className="text-alt"><small>Former Trade Minister of Republic of Indonesia</small></p>
             </div>
@@ -172,10 +193,19 @@ const IndexPage = () => (
 
     <section id="sponsors" className="section align-center">
       <div className="container">
-        <h3 className="mb-60 main-headline">Sponsors</h3>
+        <h3 className="mb-60 main-headline">Organized By</h3>
       </div>
       <div className="sponsors">
+        <div className="sponsor inline"><img src={kjri} alt="" /></div>
+      </div>
+      <div className="container">
+        <h3 className="mb-60 main-headline">Supported By</h3>
+      </div>
+      <div className="sponsors">
+        <div className="sponsor inline"><img src={bkpm} alt="" /></div>
         <div className="sponsor inline"><img src={bniLogo} alt="" /></div>
+        <div className="sponsor inline"><img src={bi} alt="" /></div>
+        <div className="sponsor inline"><img src={bri} alt="" /></div>
       </div>
     </section>
 
@@ -191,20 +221,20 @@ const IndexPage = () => (
           <li>Understanding local regulations</li>
           <li>Finding out how we can help you to identify new business partners</li>
         </ul>
-        <h4>Companies</h4>
+        <h5>Companies and Government Agencies:</h5>
         <ul>
           <li>General Electric</li>
           <li>Overseas Private Investment Corporation</li>
           <li>Telin (Telkom Indonesia) USA</li>
           <li>Special Region of Yogyakarta (DIY)</li>
         </ul>
-        <p>Please contact <a href="mailto:economicny@gmail.com">economicny@gmail.com</a> to schedule an appointment</p>
+        <p>To schedule a one-on-one session, please send an email to <a href="mailto:economicny@gmail.com">economicny@gmail.com</a></p>
       </div>
     </section>
 
     <section id="map" className="mt-60">
       <div className="contacts-wrapper">
-        <iframe title="google-maps" className="map-frame" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=intercontinental%20hotel%20times%20square&key=AIzaSyCljp_s1lir-HRjlqpj4IdwCULGFtKnBBY" allowfullscreen></iframe>
+        <iframe title="google-maps" className="map-frame" frameBorder="0" src="https://www.google.com/maps/embed/v1/place?q=intercontinental%20hotel%20times%20square&key=AIzaSyCljp_s1lir-HRjlqpj4IdwCULGFtKnBBY" allowFullScreen></iframe>
         <div className="container contacts-on-map-container">
           <div className="contacts-on-map">
             <h3 className="main-headline mt-0">Location</h3>
