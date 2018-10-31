@@ -9,6 +9,7 @@ import kjri from '../images/kjri.png'
 import bkpm from '../images/bkpm.png'
 import bi from '../images/bi.jpg'
 import bri from '../images/bri.jpg'
+import mandiri from '../images/mandiri.png'
 
 // Speakers
 import joseph from '../images/joseph.jpg'
@@ -18,7 +19,7 @@ import shinto from '../images/shinto.jpg'
 import fajrin from '../images/fajrin.jpg'
 import del from '../images/del.jpg'
 import anne from '../images/anne.jpg'
-import mari from '../images/mari.jpg'
+// import mari from '../images/mari.jpg'
 
 const IndexPage = () => (
   <Layout>
@@ -172,7 +173,7 @@ const IndexPage = () => (
         </div>
 
         <div className="row">
-          <div className="col-sm-3 col-sm-offset-3">
+          <div className="col-sm-3">
             <div className="speaker">
               <div className="photo-wrapper"><img alt="" src={anne} className="img-responsive" /></div>
               <h3 className="name">Anne Patricia Sutanto</h3>
@@ -181,9 +182,40 @@ const IndexPage = () => (
           </div>
           <div className="col-sm-3">
             <div className="speaker">
+              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
+              <h3 className="name">Sri Sultan Hamengkubuwono X</h3>
+              <p className="text-alt"><small>Governor<br/><br/>Special Region of Yogyakarta (DIY)</small></p>
+            </div>
+          </div>
+          <div className="col-sm-3">
+            <div className="speaker">
+              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
+              <h3 className="name">M. Noor Nugroho</h3>
+              <p className="text-alt"><small>Deputy Director<br/><br/>Bank Indonesia</small></p>
+            </div>
+          </div>
+          <div className="col-sm-3">
+            <div className="speaker">
+              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
+              <h3 className="name">Dr. Cris Kuntadi</h3>
+              <p className="text-alt"><small>Commissioner<br/><br/>The Indonesian Railways Company</small></p>
+            </div>
+          </div>
+          { /* <div className="col-sm-3">
+            <div className="speaker">
               <div className="photo-wrapper"><img alt="" src={mari} className="img-responsive" /></div>
               <h3 className="name">Mari Elka Pangestu</h3>
               <p className="text-alt"><small>Former Trade Minister of Republic of Indonesia</small></p>
+            </div>
+          </div>  */}
+        </div>
+
+        <div className="row">
+          <div className="col-sm-3 col-sm-offset-45">
+            <div className="speaker">
+              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
+              <h3 className="name">Budi Bowoleksono</h3>
+              <p className="text-alt"><small>Ambassador of the Republic of Indonesia to the United States of America</small></p>
             </div>
           </div>
         </div>
@@ -202,7 +234,10 @@ const IndexPage = () => (
         <div className="sponsor inline"><a href="https://www2.bkpm.go.id/"><img src={bkpm} alt="" /></a></div>
         <div className="sponsor inline"><a href="https://www.bi.go.id/id/Default.aspx"><img src={bi} alt="" /></a></div>
         <div className="sponsor inline"><a href="https://bri.co.id/"><img src={bri} alt="" /></a></div>
+      </div>
+      <div className="sponsors">
         <div className="sponsor inline"><a href="http://www.bni.co.id/id-id/"><img src={bniLogo} alt="" /></a></div>
+        <div className="sponsor inline"><a href="https://www.bankmandiri.co.id/"><img src={mandiri} alt="" /></a></div>
       </div>
     </section>
 
@@ -243,7 +278,7 @@ const IndexPage = () => (
               </tr>
               <tr>
                 <td>12:45 - 16:00</td>
-                <td>Session II 
+                <td>Session II
                     <br/>Panel Discussion: “Exploring infrastructure and tourism investment opportunities in Indonesia”</td>
               </tr>
               <tr>
