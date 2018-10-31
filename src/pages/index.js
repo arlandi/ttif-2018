@@ -97,7 +97,7 @@ const IndexPage = () => (
                 <div className="fas fa-clock"></div>
                 <div className="media-body">
                   <div className="heading-font">Thursday, November 8, 2018</div>
-                  <div>8:30 AM to 5 PM</div>
+                  <div>9:00 AM to 4:00 PM</div>
                 </div>
               </div>
             </div>
@@ -193,19 +193,81 @@ const IndexPage = () => (
 
     <section id="sponsors" className="section align-center">
       <div className="container">
-        <h3 className="mb-60 main-headline">Organized By</h3>
+        <h3 className="mb-60 main-headline">Organizers</h3>
       </div>
       <div className="sponsors">
-        <div className="sponsor inline"><img src={kjri} alt="" /></div>
+        <div className="sponsor inline"><a href="https://www.kemlu.go.id/newyork/en/default.aspx"><img src={kjri} alt="" /></a></div>
       </div>
+      <div className="sponsors">
+        <div className="sponsor inline"><a href="https://www2.bkpm.go.id/"><img src={bkpm} alt="" /></a></div>
+        <div className="sponsor inline"><a href="https://www.bi.go.id/id/Default.aspx"><img src={bi} alt="" /></a></div>
+        <div className="sponsor inline"><a href="https://bri.co.id/"><img src={bri} alt="" /></a></div>
+        <div className="sponsor inline"><a href="http://www.bni.co.id/id-id/"><img src={bniLogo} alt="" /></a></div>
+      </div>
+    </section>
+
+    <section id="schedule" className="section mt-20">
       <div className="container">
-        <h3 className="mb-60 main-headline">Supported By</h3>
-      </div>
-      <div className="sponsors">
-        <div className="sponsor inline"><img src={bkpm} alt="" /></div>
-        <div className="sponsor inline"><img src={bniLogo} alt="" /></div>
-        <div className="sponsor inline"><img src={bi} alt="" /></div>
-        <div className="sponsor inline"><img src={bri} alt="" /></div>
+        <div className="row align-center">
+          <h3 className="mb-30 main-headline">Schedule</h3>
+        </div>
+
+        <div className="col-sm-10 col-sm-offset-1">
+          <table className="table">
+            <thead>
+              <tr>
+                <th width="150">Time</th>
+                <th>Agenda</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>8:30 - 9:00</td>
+                <td>Registration</td>
+              </tr>
+              <tr>
+                <td>9:00 - 12:00</td>
+                <td>Opening Remarks by the Ambassador of the Republic of Indonesia to the United States<br/>Remarks by the Chairman of Indonesia Investment Coordinating Board</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Coffee Break</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Session I <br/>Panel Discussion: “Enhancing Indonesian tourism and creative economy”</td>
+              </tr>
+              <tr>
+                <td>12:00 - 12:45</td>
+                <td>Networking Lunch</td>
+              </tr>
+              <tr>
+                <td>12:45 - 16:00</td>
+                <td>Session II 
+                    <br/>Panel Discussion: “Exploring infrastructure and tourism investment opportunities in Indonesia”</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Coffee Break</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Session III
+                    <br/>Panel discussion: “Investment on infrastructure & manufacturing industries in Indonesia
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Closing remarks by the Consulate General of the Republic of Indonesia in New York</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Breakout Session</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
       </div>
     </section>
 
@@ -214,6 +276,7 @@ const IndexPage = () => (
         <div className="row align-center">
           <h3 className="mb-60 main-headline">One-on-One Sessions</h3>
         </div>
+
         <p>BFTTI offers participants the chance to have one-on-one sessions with Indonesian companies and government agencies further discuss investment opportunities in Indonesia. In these sessions, participants can have unparalleled insights to get specific answers pertaining to their business and investments which may include the but not limited to:</p>
         <ul>
           <li>Learning about investment opportunities in Indonesia</li>
@@ -227,8 +290,12 @@ const IndexPage = () => (
           <li>Overseas Private Investment Corporation</li>
           <li>Telin (Telkom Indonesia) USA</li>
           <li>Special Region of Yogyakarta (DIY)</li>
+          <li>PT Pan Brothers TbK</li>
+          <li>PT Sarana Multi Infrastruktur</li>
+          <li>Bukalapak</li>
+          <li>Indonesia Investment Coordinating Board</li>
         </ul>
-        <p>To schedule a one-on-one session, please send an email to <a href="mailto:economicny@gmail.com">economicny@gmail.com</a></p>
+        <p>To schedule a one-on-one session, please send an email to <a href="mailto:economicny@gmail.com">economicny@gmail.com</a> and <a href="mailto:TTINewYork@gmail.com">TTINewYork@gmail.com</a></p>
       </div>
     </section>
 
@@ -239,7 +306,7 @@ const IndexPage = () => (
           <div className="contacts-on-map">
             <h3 className="main-headline mt-0">Location</h3>
             <div><i className="fas fa-map-marked-alt"></i>300 W 44th St, New York, NY 10036</div>
-            <div><i className="fas fa-clock"></i>8:30 AM - 5:00 PM</div>
+            <div><i className="fas fa-clock"></i>9:00 AM - 4:00 PM</div>
             <div><i className="fas fa-envelope"></i><a href="mailto:economicny@gmail.com">economicny@gmail.com</a></div>
           </div>
         </div>
