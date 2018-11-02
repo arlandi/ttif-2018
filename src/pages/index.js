@@ -15,9 +15,9 @@ import mandiri from '../images/mandiri.png'
 import joseph from '../images/joseph.jpg'
 import thomas from '../images/thomas.jpg'
 import william from '../images/william.jpg'
-import shinto from '../images/shinto.jpg'
+// import shinto from '../images/shinto.jpg'
 import fajrin from '../images/fajrin.jpg'
-import del from '../images/del.jpg'
+// import del from '../images/del.jpg'
 import anne from '../images/anne.jpg'
 // import mari from '../images/mari.jpg'
 
@@ -53,8 +53,8 @@ const IndexPage = () => (
                   <ul className="navigation-list pull-left light-text">
                       <li className="navigation-item"><a href="#about" className="navigation-link">About</a></li>
                       <li className="navigation-item"><a href="#speakers" className="navigation-link">Speakers</a></li>
-                      <li className="navigation-item"><a href="#sponsors" className="navigation-link">Sponsors</a></li>
-                      <li className="navigation-item"><a href="#sessions" className="navigation-link">Sessions</a></li>
+                      <li className="navigation-item"><a href="#organizers" className="navigation-link">Organizers</a></li>
+                      <li className="navigation-item"><a href="#agenda" className="navigation-link">Agenda</a></li>
                       <li className="navigation-item"><a href="#map" className="navigation-link">Location</a></li>
                   </ul>
                   <a target="_blank" rel="noopener noreferrer" href="https://www.eventbrite.com/e/business-forum-on-trade-tourism-and-investment-in-indonesia-registration-50909800584" className="pull-right buy-btn">Register</a>
@@ -67,17 +67,11 @@ const IndexPage = () => (
     <section id="about" className="section pt-28">
       <div className="container">
         <div className="row align-center">
-          <h3 className="main-headline">About</h3>
+          <h3 className="main-headline mb-30">About</h3>
         </div>
-        <h4>Background</h4>
-        <p>Amid global economic uncertainty, Indonesia thrives to maintain its position as the largest economy in South East Asia and one of the most desirable emerging markets in the world. It is currently experiencing a steady 5 percent economic growth. The target is to reach 6 to 7 percent growth to break out of middle income trap and achieve sustainable economic and development goals.</p>
-        <p>It is our belief that a stronger US and Indonesia economic partnership can help us achieve this goal while at the same time provide a mutual and beneficial economic opportunities for the two countries. Therefore, Indonesia aims to boost its trade and investment particularly from the US as well as placing a great importance on tourism as one of Indonesia’s strategic sectors that encompasses trade and investment. In order to do so, we will hold a “Business Forum on Trade, Tourism, and Investment in Indonesia”.</p>
-        <h4 className="mt-20">Purposes</h4>
-        <ul>
-          <li>To facilitate an exchange of ideas on promoting trade, tourism and investment in Indonesia and strengthening economic ties between US and Indonesia.</li>
-          <li>To promote Indonesia as a remarkable destination for trade, tourism and investment.</li>
-          <li>To provide networking opportunities among US and Indonesia’s trade, tourism and investment stakeholders.</li>
-        </ul>
+        <p>The Business Forum on Trade, Tourism & Investment in Indonesia (BFTTII) is a high profile event dedicated to strengthen United States (US) and Indonesian economic ties by promoting trade, tourism and investment activities in Indonesia to US business communities. BFTTII provides vast opportunities for participants to gain valuable, first-hand insights on business and economic environments in Indonesia through its thematic sessions, which features high-ranking government officials and senior business executives. Participants also have the chance to schedule one-on-one meetings with US and Indonesian companies and government agencies to further discuss business opportunities in Indonesia.</p>
+        <h4>About Indonesia:</h4>
+        <p>Indonesia is the largest economy in Southeast Asia with over one-trillion dollars in gross domestic product (GDP). The country has been experiencing rapid economic growth over the past decade, primarily driven by its 260 million strong population base (4th in the world), robust domestic consumption, and increased productivity. Indonesia is a member of G20</p>
       </div>
     </section>
 
@@ -120,23 +114,23 @@ const IndexPage = () => (
           </div>
           <div className="col-sm-3">
             <div className="speaker">
-              <div className="photo-wrapper"><img alt="" src={joseph} className="img-responsive" /></div>
-              <h3 className="name">Joseph Sahat Raja</h3>
-              <p className="text-alt"><small>CEO<br/><br/>Telin</small></p>
+              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
+              <h3 className="name">Budi Bowoleksono</h3>
+              <p className="text-alt"><small>Ambassador of the Republic of Indonesia to the United States of America</small></p>
             </div>
           </div>
           <div className="col-sm-3">
             <div className="speaker">
-              <div className="photo-wrapper"><img alt="" src={william} className="img-responsive" /></div>
-              <h3 className="name">William Pegues</h3>
-              <p className="text-alt"><small>Director<br/><br/>Structured Finance & Insurance Overseas Private Investment Corporation</small></p>
+              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
+              <h3 className="name">Sri Sultan Hamengkubuwono X</h3>
+              <p className="text-alt"><small>Governor<br/><br/>Special Region of Yogyakarta (DIY)</small></p>
             </div>
           </div>
           <div className="col-sm-3">
             <div className="speaker">
-              <div className="photo-wrapper"><img alt="" src={shinto} className="img-responsive" /></div>
-              <h3 className="name">Shinto Nugroho</h3>
-              <p className="text-alt"><small>Chief Policy and Government Relations<br/><br/>GO-JEK</small></p>
+              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
+              <h3 className="name">M. Noor Nugroho</h3>
+              <p className="text-alt"><small>Deputy Director<br/><br/>Bank Indonesia</small></p>
             </div>
           </div>
         </div>
@@ -165,7 +159,7 @@ const IndexPage = () => (
           </div>
           <div className="col-sm-3">
             <div className="speaker">
-              <div className="photo-wrapper"><img alt="" src={del} className="img-responsive" /></div>
+              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
               <h3 className="name">Del Renigar</h3>
               <p className="text-alt"><small>Executive Director, Global Government Affairs & Policy<br/><br/>General Electric</small></p>
             </div>
@@ -183,22 +177,22 @@ const IndexPage = () => (
           <div className="col-sm-3">
             <div className="speaker">
               <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
-              <h3 className="name">Sri Sultan Hamengkubuwono X</h3>
-              <p className="text-alt"><small>Governor<br/><br/>Special Region of Yogyakarta (DIY)</small></p>
-            </div>
-          </div>
-          <div className="col-sm-3">
-            <div className="speaker">
-              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
-              <h3 className="name">M. Noor Nugroho</h3>
-              <p className="text-alt"><small>Deputy Director<br/><br/>Bank Indonesia</small></p>
-            </div>
-          </div>
-          <div className="col-sm-3">
-            <div className="speaker">
-              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
               <h3 className="name">Dr. Cris Kuntadi</h3>
               <p className="text-alt"><small>Commissioner<br/><br/>The Indonesian Railways Company</small></p>
+            </div>
+          </div>
+          <div className="col-sm-3">
+            <div className="speaker">
+              <div className="photo-wrapper"><img alt="" src={joseph} className="img-responsive" /></div>
+              <h3 className="name">Joseph Sahat Raja</h3>
+              <p className="text-alt"><small>CEO<br/><br/>Telin</small></p>
+            </div>
+          </div>
+          <div className="col-sm-3">
+            <div className="speaker">
+              <div className="photo-wrapper"><img alt="" src={william} className="img-responsive" /></div>
+              <h3 className="name">William Pegues</h3>
+              <p className="text-alt"><small>Director<br/><br/>Structured Finance & Insurance Overseas Private Investment Corporation</small></p>
             </div>
           </div>
           { /* <div className="col-sm-3">
@@ -211,11 +205,25 @@ const IndexPage = () => (
         </div>
 
         <div className="row">
-          <div className="col-sm-3 col-sm-offset-45">
+          <div className="col-sm-3 col-sm-offset-15">
             <div className="speaker">
               <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
-              <h3 className="name">Budi Bowoleksono</h3>
-              <p className="text-alt"><small>Ambassador of the Republic of Indonesia to the United States of America</small></p>
+              <h3 className="name">Shinto Nugroho</h3>
+              <p className="text-alt"><small>Chief Policy and Government Relations<br/><br/>GO-JEK</small></p>
+            </div>
+          </div>
+          <div className="col-sm-3">
+            <div className="speaker">
+              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
+              <h3 className="name">Cameron Hume</h3>
+              <p className="text-alt"><small>Former United States Ambassador to Indonesia</small></p>
+            </div>
+          </div>
+          <div className="col-sm-3">
+            <div className="speaker">
+              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
+              <h3 className="name">Wayne Forrest</h3>
+              <p className="text-alt"><small>President<br/><br/>American Indonesian Chamber of Commerce</small></p>
             </div>
           </div>
         </div>
@@ -223,7 +231,7 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section id="sponsors" className="section align-center">
+    <section id="organizers" className="section align-center">
       <div className="container">
         <h3 className="mb-60 main-headline">Organizers</h3>
       </div>
@@ -241,10 +249,10 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section id="schedule" className="section mt-20">
+    <section id="agenda" className="section mt-20">
       <div className="container">
         <div className="row align-center">
-          <h3 className="mb-30 main-headline">Schedule</h3>
+          <h3 className="mb-30 main-headline">Agenda</h3>
         </div>
 
         <div className="col-sm-10 col-sm-offset-1">
@@ -257,43 +265,44 @@ const IndexPage = () => (
             </thead>
             <tbody>
               <tr>
-                <td>8:30 - 9:00</td>
-                <td>Registration</td>
+                <td className="bb">8:30 - 9:00</td>
+                <td className="bb">Registration</td>
               </tr>
               <tr>
                 <td>9:00 - 12:00</td>
-                <td>Opening Remarks by the Ambassador of the Republic of Indonesia to the United States<br/>Remarks by the Chairman of Indonesia Investment Coordinating Board</td>
+                <td className="bb">Opening Remarks by the Ambassador of the Republic of Indonesia to the United States<br/>Remarks by the Chairman of Indonesia Investment Coordinating Board</td>
               </tr>
               <tr>
                 <td></td>
-                <td>Coffee Break</td>
+                <td className="bb">Coffee Break</td>
               </tr>
               <tr>
-                <td></td>
-                <td>Session I <br/>Panel Discussion: “Enhancing Indonesian tourism and creative economy”</td>
+                <td className="bb"></td>
+                <td className="bb">Session I <br/>Panel Discussion: “Enhancing Indonesian tourism and creative economy”</td>
               </tr>
               <tr>
-                <td>12:00 - 12:45</td>
-                <td>Networking Lunch</td>
+                <td className="bb">12:00 - 12:45</td>
+                <td className="bb">Networking Lunch</td>
               </tr>
               <tr>
                 <td>12:45 - 16:00</td>
-                <td>Session II
-                    <br/>Panel Discussion: “Exploring infrastructure and tourism investment opportunities in Indonesia”</td>
+                <td className="bb">Session II
+                    <br/>Panel Discussion: “Exploring infrastructure and tourism investment opportunities in Indonesia”
+                </td>
               </tr>
               <tr>
                 <td></td>
-                <td>Coffee Break</td>
+                <td className="bb">Coffee Break</td>
               </tr>
               <tr>
                 <td></td>
-                <td>Session III
+                <td className="bb">Session III
                     <br/>Panel discussion: “Investment on infrastructure & manufacturing industries in Indonesia
                 </td>
               </tr>
               <tr>
                 <td></td>
-                <td>Closing remarks by the Consulate General of the Republic of Indonesia in New York</td>
+                <td className="bb">Closing remarks by the Consulate General of the Republic of Indonesia in New York</td>
               </tr>
               <tr>
                 <td></td>
@@ -309,12 +318,11 @@ const IndexPage = () => (
     <section id="sessions" className="section">
       <div className="container">
         <div className="row align-center">
-          <h3 className="mb-60 main-headline">One-on-One Sessions</h3>
+          <h3 className="mb-60 main-headline">One-on-One Meetings</h3>
         </div>
-
-        <p>BFTTI offers participants the chance to have one-on-one sessions with Indonesian companies and government agencies further discuss investment opportunities in Indonesia. In these sessions, participants can have unparalleled insights to get specific answers pertaining to their business and investments which may include the but not limited to:</p>
+        <p>BFTTI offers participants the chance to have one-on-one meetings with Indonesian companies and government agencies further discuss investment opportunities in Indonesia. Through these meetings, participants can have unparalleled insights to get specific answers pertaining to their business and investments which may include the but not limited to:</p>
         <ul>
-          <li>Learning about investment opportunities in Indonesia</li>
+          <li>Learning about business opportunities in Indonesia</li>
           <li>Assessing challenges in the market and business environment</li>
           <li>Understanding local regulations</li>
           <li>Finding out how we can help you to identify new business partners</li>
@@ -343,6 +351,7 @@ const IndexPage = () => (
             <div><i className="fas fa-map-marked-alt"></i>300 W 44th St, New York, NY 10036</div>
             <div><i className="fas fa-clock"></i>9:00 AM - 4:00 PM</div>
             <div><i className="fas fa-envelope"></i><a href="mailto:economicny@gmail.com">economicny@gmail.com</a></div>
+            <div><i className="fas fa-envelope"></i><a href="mailto:TTINewYork@gmail.com">TTINewYork@gmail.com</a></div>
           </div>
         </div>
       </div>

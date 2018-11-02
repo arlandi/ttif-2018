@@ -1326,6 +1326,9 @@ pre code {
   .col-sm-offset-2 {
     margin-left: 16.66666667%
   }
+  .col-sm-offset-15 {
+    margin-left: 12%
+  }
   .col-sm-offset-1 {
     margin-left: 8.33333333%
   }
