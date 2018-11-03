@@ -24,6 +24,10 @@ import anne from '../images/anne.jpg'
 import budi from '../images/budi.jpg'
 import noor from '../images/noor.jpg'
 import eri from '../images/eri.jpg'
+import robert from '../images/robert.jpg'
+import arief from '../images/arief.jpg'
+import rahardjo from '../images/rahardjo.jpg'
+import person from '../images/person.jpg'
 // import mari from '../images/mari.jpg'
 
 const IndexPage = () => (
@@ -77,7 +81,7 @@ const IndexPage = () => (
         </div>
         <p>The Business Forum on Trade, Tourism & Investment in Indonesia (BFTTII) is a high profile event dedicated to strengthen United States (US) and Indonesian economic ties by promoting trade, tourism and investment activities in Indonesia to US business communities. BFTTII provides vast opportunities for participants to gain valuable, first-hand insights on business and economic environments in Indonesia through its thematic sessions, which features high-ranking government officials and senior business executives. Participants also have the chance to schedule one-on-one meetings with US and Indonesian companies and government agencies to further discuss business opportunities in Indonesia.</p>
         <h4>About Indonesia:</h4>
-        <p>Indonesia is the largest economy in Southeast Asia with over one-trillion dollars in gross domestic product (GDP). The country has been experiencing rapid economic growth over the past decade, primarily driven by its 260 million strong population base (4th in the world), robust domestic consumption, and increased productivity. Indonesia is a member of G20</p>
+        <p>Indonesia is the largest economy in Southeast Asia with over one-trillion dollars in gross domestic product (GDP). The country has been experiencing rapid economic growth over the past decade, primarily driven by its 260 million strong population base (4th in the world), robust domestic consumption, and increased productivity. Indonesia is a member of G20.</p>
       </div>
     </section>
 
@@ -127,7 +131,7 @@ const IndexPage = () => (
           </div>
           <div className="col-sm-3">
             <div className="speaker">
-              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
+              <div className="photo-wrapper"><img alt="" src={person} className="img-responsive" /></div>
               <h3 className="name">Hon. Sri Sultan Hamengkubuwono X</h3>
               <p className="text-alt"><small>Governor<br/><br/>Special Region of Yogyakarta (DIY)</small></p>
             </div>
@@ -136,7 +140,7 @@ const IndexPage = () => (
             <div className="speaker">
               <div className="photo-wrapper"><img alt="" src={cameron} className="img-responsive" /></div>
               <h3 className="name">Amb. Cameron Hume (2005-2010)</h3>
-              <p className="text-alt"><small>Former United States Ambassador to Indonesia</small></p>
+              <p className="text-alt"><small>Former United States Ambassador to the Republic of Indonesia</small></p>
             </div>
           </div>
         </div>
@@ -144,8 +148,9 @@ const IndexPage = () => (
         <div className="row">
           <div className="col-sm-3">
             <div className="speaker">
-              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
+              <div className="photo-wrapper"><img alt="" src={robert} className="img-responsive" /></div>
               <h3 className="name">Amb. Robert Blake (2015-2016)</h3>
+              <p className="text-alt"><small>Former United States Ambassador to the Republic of Indonesia</small></p>
             </div>
           </div>
           <div className="col-sm-3">
@@ -157,11 +162,21 @@ const IndexPage = () => (
           </div>
           <div className="col-sm-3">
             <div className="speaker">
+              <div className="photo-wrapper"><img alt="" src={noor} className="img-responsive" /></div>
+              <h3 className="name">M. Noor Nugroho</h3>
+              <p className="text-alt"><small>Deputy Director<br/><br/>Bank Indonesia</small></p>
+            </div>
+          </div>
+          <div className="col-sm-3">
+            <div className="speaker">
               <div className="photo-wrapper"><img alt="" src={joseph} className="img-responsive" /></div>
               <h3 className="name">Joseph Sahat Raja</h3>
               <p className="text-alt"><small>CEO<br/><br/>Telin</small></p>
             </div>
           </div>
+        </div>
+
+        <div className="row">
           <div className="col-sm-3">
             <div className="speaker">
               <div className="photo-wrapper"><img alt="" src={shinto} className="img-responsive" /></div>
@@ -169,9 +184,6 @@ const IndexPage = () => (
               <p className="text-alt"><small>Chief Policy and Government Relations<br/><br/>GO-JEK</small></p>
             </div>
           </div>
-        </div>
-
-        <div className="row">
           <div className="col-sm-3">
             <div className="speaker">
               <div className="photo-wrapper"><img alt="" src={fajrin} className="img-responsive" /></div>
@@ -181,7 +193,7 @@ const IndexPage = () => (
           </div>
           <div className="col-sm-3">
             <div className="speaker">
-              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
+              <div className="photo-wrapper"><img alt="" src={arief} className="img-responsive" /></div>
               <h3 className="name">Arief Hidayat</h3>
               <p className="text-alt"><small>Head of Regional Government of the Special Region of Yogyakarta</small></p>
             </div>
@@ -193,26 +205,26 @@ const IndexPage = () => (
               <p className="text-alt"><small>Director<br/><br/>Structured Finance & Insurance<br/>Overseas Private Investment Corporation (OPIC)</small></p>
             </div>
           </div>
-          <div className="col-sm-3">
-            <div className="speaker">
-              <div className="photo-wrapper"><img alt="" src={eri} className="img-responsive" /></div>
-              <h3 className="name">Eri Wibowo</h3>
-              <p className="text-alt"><small>Head Division, Financing & Investment<br/><br/>PT Sarana Multi Infrastruktur</small></p>
-            </div>
-          </div>
         </div>
 
         <div className="row">
           <div className="col-sm-3">
             <div className="speaker">
-              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
+              <div className="photo-wrapper"><img alt="" src={eri} className="img-responsive" /></div>
+              <h3 className="name">Eri Wibowo</h3>
+              <p className="text-alt"><small>Head of Division, Financing & Investment<br/><br/>PT Sarana Multi Infrastruktur</small></p>
+            </div>
+          </div>
+          <div className="col-sm-3">
+            <div className="speaker">
+              <div className="photo-wrapper"><img alt="" src={person} className="img-responsive" /></div>
               <h3 className="name">Del Renigar</h3>
               <p className="text-alt"><small>Executive Director, Global Government Affairs & Policy<br/><br/>General Electric</small></p>
             </div>
           </div>
           <div className="col-sm-3">
             <div className="speaker">
-              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
+              <div className="photo-wrapper"><img alt="" src={person} className="img-responsive" /></div>
               <h3 className="name">Dr. Cris Kuntadi</h3>
               <p className="text-alt"><small>Commissioner<br/><br/>The Indonesian Railways Company</small></p>
             </div>
@@ -224,36 +236,29 @@ const IndexPage = () => (
               <p className="text-alt"><small>CEO<br/><br/>PT Pan Brothers Tbk</small></p>
             </div>
           </div>
-          <div className="col-sm-3">
-            <div className="speaker">
-              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
-              <h3 className="name">Rahardjo Siswohartono</h3>
-              <p className="text-alt"><small>Director of Indonesia Investment Promotion Center</small></p>
-            </div>
-          </div>
           { /* <div className="col-sm-3">
             <div className="speaker">
               <div className="photo-wrapper"><img alt="" src={mari} className="img-responsive" /></div>
               <h3 className="name">Mari Elka Pangestu</h3>
               <p className="text-alt"><small>Former Trade Minister of Republic of Indonesia</small></p>
             </div>
-          </div>  
+          </div>
            */}
         </div>
 
         <div className="row">
           <div className="col-sm-3 col-sm-offset-3">
             <div className="speaker">
-              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
-              <h3 className="name">Billy Anugrah</h3>
-              <p className="text-alt"><small>Director of Indonesia Trade Promotion Center</small></p>
+              <div className="photo-wrapper"><img alt="" src={rahardjo} className="img-responsive" /></div>
+              <h3 className="name">Rahardjo Siswohartono</h3>
+              <p className="text-alt"><small>Director<br/><br/>Indonesia Investment Promotion Center</small></p>
             </div>
           </div>
           <div className="col-sm-3">
             <div className="speaker">
-              <div className="photo-wrapper"><img alt="" src={noor} className="img-responsive" /></div>
-              <h3 className="name">M. Noor Nugroho</h3>
-              <p className="text-alt"><small>Deputy Director<br/><br/>Bank Indonesia</small></p>
+              <div className="photo-wrapper"><img alt="" src={person} className="img-responsive" /></div>
+              <h3 className="name">Billy Anugrah</h3>
+              <p className="text-alt"><small>Director<br/><br/>Indonesia Trade Promotion Center</small></p>
             </div>
           </div>
         </div>
