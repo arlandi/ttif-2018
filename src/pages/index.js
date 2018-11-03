@@ -139,8 +139,8 @@ const IndexPage = () => (
           <div className="col-sm-3">
             <div className="speaker">
               <div className="photo-wrapper"><img alt="" src={cameron} className="img-responsive" /></div>
-              <h3 className="name">Amb. Cameron Hume (2005-2010)</h3>
-              <p className="text-alt"><small>Former United States Ambassador to the Republic of Indonesia</small></p>
+              <h3 className="name">Amb. Cameron Hume</h3>
+              <p className="text-alt"><small>Former United States Ambassador to the Republic of Indonesia (2005-2010)</small></p>
             </div>
           </div>
         </div>
@@ -149,8 +149,8 @@ const IndexPage = () => (
           <div className="col-sm-3">
             <div className="speaker">
               <div className="photo-wrapper"><img alt="" src={robert} className="img-responsive" /></div>
-              <h3 className="name">Amb. Robert Blake (2015-2016)</h3>
-              <p className="text-alt"><small>Former United States Ambassador to the Republic of Indonesia</small></p>
+              <h3 className="name">Amb. Robert Blake</h3>
+              <p className="text-alt"><small>Former United States Ambassador to the Republic of Indonesia (2015-2016)</small></p>
             </div>
           </div>
           <div className="col-sm-3">
