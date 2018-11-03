@@ -1050,7 +1050,6 @@ button.btn.btn-block {
   font-weight: 700;
   text-transform: uppercase;
   line-height: 14px;
-  letter-spacing: 0.3px;
   margin: 0;
   color: #16254b;
   margin-bottom: 4px;
@@ -1571,7 +1570,7 @@ button.btn.btn-block {
   font-size: 11px;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.26em;
+  letter-spacing: 1px;
   color: #262627;
   border-style: solid;
   border-width: 0 0 2px;
@@ -2211,6 +2210,9 @@ button.btn.btn-block {
 .mt-0 {
   margin-top: 0;
   margin-bottom: 28px;
+}
+.mw-350 {
+  max-width: 350px !important;
 }
 .bg-primary {
   background: linear-gradient(90deg,#16254b,#536bb2);

@@ -55,6 +55,7 @@ const IndexPage = () => (
                       <li className="navigation-item"><a href="#speakers" className="navigation-link">Speakers</a></li>
                       <li className="navigation-item"><a href="#organizers" className="navigation-link">Organizers</a></li>
                       <li className="navigation-item"><a href="#agenda" className="navigation-link">Agenda</a></li>
+                      <li className="navigation-item"><a href="#meetings" className="navigation-link">One-on-One Meetings</a></li>
                       <li className="navigation-item"><a href="#map" className="navigation-link">Location</a></li>
                   </ul>
                   <a target="_blank" rel="noopener noreferrer" href="https://www.eventbrite.com/e/business-forum-on-trade-tourism-and-investment-in-indonesia-registration-50909800584" className="pull-right buy-btn">Register</a>
@@ -92,7 +93,7 @@ const IndexPage = () => (
                 <div className="fas fa-clock"></div>
                 <div className="media-body">
                   <div className="heading-font">Thursday, November 8, 2018</div>
-                  <div>9:00 AM to 4:00 PM</div>
+                  <div>9:00 AM to 5:00 PM</div>
                 </div>
               </div>
             </div>
@@ -108,29 +109,59 @@ const IndexPage = () => (
           <div className="col-sm-3">
             <div className="speaker">
               <div className="photo-wrapper"><img alt="" src={thomas} className="img-responsive" /></div>
-              <h3 className="name">Thomas Trikasih Lembong</h3>
+              <h3 className="name">H.E. Thomas Trikasih Lembong</h3>
               <p className="text-alt"><small>Chairman<br/><br/>Indonesia Investment Coordinating Board</small></p>
             </div>
           </div>
           <div className="col-sm-3">
             <div className="speaker">
               <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
-              <h3 className="name">Budi Bowoleksono</h3>
+              <h3 className="name">H.E. Amb. Budi Bowoleksono</h3>
               <p className="text-alt"><small>Ambassador of the Republic of Indonesia to the United States of America</small></p>
             </div>
           </div>
           <div className="col-sm-3">
             <div className="speaker">
               <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
-              <h3 className="name">Sri Sultan Hamengkubuwono X</h3>
+              <h3 className="name">Hon. Sri Sultan Hamengkubuwono X</h3>
               <p className="text-alt"><small>Governor<br/><br/>Special Region of Yogyakarta (DIY)</small></p>
             </div>
           </div>
           <div className="col-sm-3">
             <div className="speaker">
               <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
-              <h3 className="name">M. Noor Nugroho</h3>
-              <p className="text-alt"><small>Deputy Director<br/><br/>Bank Indonesia</small></p>
+              <h3 className="name">Amb. Cameron Hume (2005-2010)</h3>
+              <p className="text-alt"><small>Former United States Ambassador to Indonesia</small></p>
+            </div>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col-sm-3">
+            <div className="speaker">
+              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
+              <h3 className="name">Amb. Robert Blake (2015-2016)</h3>
+            </div>
+          </div>
+          <div className="col-sm-3">
+            <div className="speaker">
+              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
+              <h3 className="name">Wayne Forrest</h3>
+              <p className="text-alt"><small>President<br/><br/>American Indonesian Chamber of Commerce</small></p>
+            </div>
+          </div>
+          <div className="col-sm-3">
+            <div className="speaker">
+              <div className="photo-wrapper"><img alt="" src={joseph} className="img-responsive" /></div>
+              <h3 className="name">Joseph Sahat Raja</h3>
+              <p className="text-alt"><small>CEO<br/><br/>Telin</small></p>
+            </div>
+          </div>
+          <div className="col-sm-3">
+            <div className="speaker">
+              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
+              <h3 className="name">Shinto Nugroho</h3>
+              <p className="text-alt"><small>Chief Policy and Government Relations<br/><br/>GO-JEK</small></p>
             </div>
           </div>
         </div>
@@ -152,16 +183,16 @@ const IndexPage = () => (
           </div>
           <div className="col-sm-3">
             <div className="speaker">
-              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
-              <h3 className="name">Eri Wibowo</h3>
-              <p className="text-alt"><small>Head Division, Financing & Investment<br/><br/>PT Sarana Multi Infrastruktur</small></p>
+              <div className="photo-wrapper"><img alt="" src={william} className="img-responsive" /></div>
+              <h3 className="name">William Pegues</h3>
+              <p className="text-alt"><small>Director<br/><br/>Structured Finance & Insurance<br/>Overseas Private Investment Corporation (OPIC)</small></p>
             </div>
           </div>
           <div className="col-sm-3">
             <div className="speaker">
               <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
-              <h3 className="name">Del Renigar</h3>
-              <p className="text-alt"><small>Executive Director, Global Government Affairs & Policy<br/><br/>General Electric</small></p>
+              <h3 className="name">Eri Wibowo</h3>
+              <p className="text-alt"><small>Head Division, Financing & Investment<br/><br/>PT Sarana Multi Infrastruktur</small></p>
             </div>
           </div>
         </div>
@@ -169,9 +200,9 @@ const IndexPage = () => (
         <div className="row">
           <div className="col-sm-3">
             <div className="speaker">
-              <div className="photo-wrapper"><img alt="" src={anne} className="img-responsive" /></div>
-              <h3 className="name">Anne Patricia Sutanto</h3>
-              <p className="text-alt"><small>CEO<br/><br/>PT Pan Brothers Tbk</small></p>
+              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
+              <h3 className="name">Del Renigar</h3>
+              <p className="text-alt"><small>Executive Director, Global Government Affairs & Policy<br/><br/>General Electric</small></p>
             </div>
           </div>
           <div className="col-sm-3">
@@ -183,16 +214,16 @@ const IndexPage = () => (
           </div>
           <div className="col-sm-3">
             <div className="speaker">
-              <div className="photo-wrapper"><img alt="" src={joseph} className="img-responsive" /></div>
-              <h3 className="name">Joseph Sahat Raja</h3>
-              <p className="text-alt"><small>CEO<br/><br/>Telin</small></p>
+              <div className="photo-wrapper"><img alt="" src={anne} className="img-responsive" /></div>
+              <h3 className="name">Anne Patricia Sutanto</h3>
+              <p className="text-alt"><small>CEO<br/><br/>PT Pan Brothers Tbk</small></p>
             </div>
           </div>
           <div className="col-sm-3">
             <div className="speaker">
-              <div className="photo-wrapper"><img alt="" src={william} className="img-responsive" /></div>
-              <h3 className="name">William Pegues</h3>
-              <p className="text-alt"><small>Director<br/><br/>Structured Finance & Insurance Overseas Private Investment Corporation</small></p>
+              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
+              <h3 className="name">Rahardjo Siswohartono</h3>
+              <p className="text-alt"><small>Director of Indonesia Investment Promotion Center</small></p>
             </div>
           </div>
           { /* <div className="col-sm-3">
@@ -201,29 +232,23 @@ const IndexPage = () => (
               <h3 className="name">Mari Elka Pangestu</h3>
               <p className="text-alt"><small>Former Trade Minister of Republic of Indonesia</small></p>
             </div>
-          </div>  */}
+          </div>  
+           */}
         </div>
 
         <div className="row">
-          <div className="col-sm-3 col-sm-offset-15">
+          <div className="col-sm-3 col-sm-offset-3">
             <div className="speaker">
               <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
-              <h3 className="name">Shinto Nugroho</h3>
-              <p className="text-alt"><small>Chief Policy and Government Relations<br/><br/>GO-JEK</small></p>
+              <h3 className="name">Billy Anugrah</h3>
+              <p className="text-alt"><small>Director of Indonesia Trade Promotion Center</small></p>
             </div>
           </div>
           <div className="col-sm-3">
             <div className="speaker">
               <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
-              <h3 className="name">Cameron Hume</h3>
-              <p className="text-alt"><small>Former United States Ambassador to Indonesia</small></p>
-            </div>
-          </div>
-          <div className="col-sm-3">
-            <div className="speaker">
-              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
-              <h3 className="name">Wayne Forrest</h3>
-              <p className="text-alt"><small>President<br/><br/>American Indonesian Chamber of Commerce</small></p>
+              <h3 className="name">M. Noor Nugroho</h3>
+              <p className="text-alt"><small>Deputy Director<br/><br/>Bank Indonesia</small></p>
             </div>
           </div>
         </div>
@@ -240,12 +265,12 @@ const IndexPage = () => (
       </div>
       <div className="sponsors">
         <div className="sponsor inline"><a href="https://www2.bkpm.go.id/"><img src={bkpm} alt="" /></a></div>
-        <div className="sponsor inline"><a href="https://www.bi.go.id/id/Default.aspx"><img src={bi} alt="" /></a></div>
-        <div className="sponsor inline"><a href="https://bri.co.id/"><img src={bri} alt="" /></a></div>
+        <div className="sponsor inline mw-350"><a href="https://www.bi.go.id/id/Default.aspx"><img src={bi} alt="" /></a></div>
+        <div className="sponsor inline"><a href="https://www.bankmandiri.co.id/"><img src={mandiri} alt="" /></a></div>
       </div>
       <div className="sponsors">
+        <div className="sponsor inline"><a href="https://bri.co.id/"><img src={bri} alt="" /></a></div>
         <div className="sponsor inline"><a href="http://www.bni.co.id/id-id/"><img src={bniLogo} alt="" /></a></div>
-        <div className="sponsor inline"><a href="https://www.bankmandiri.co.id/"><img src={mandiri} alt="" /></a></div>
       </div>
     </section>
 
@@ -269,15 +294,23 @@ const IndexPage = () => (
                 <td className="bb">Registration</td>
               </tr>
               <tr>
-                <td>9:00 - 12:00</td>
-                <td className="bb">Opening Remarks by the Ambassador of the Republic of Indonesia to the United States<br/>Remarks by the Chairman of Indonesia Investment Coordinating Board</td>
+                <td className="bb">9:00 - 9:00</td>
+                <td className="bb">Opening Remarks by the Ambassador of the Republic of Indonesia to the United States</td>
               </tr>
               <tr>
-                <td></td>
+                <td className="bb">9:10 - 9:45</td>
+                <td className="bb">Remarks by the Chairman of Indonesia Investment Coordinating Board</td>
+              </tr>
+              <tr>
+                <td className="bb">9:45 - 10:00</td>
+                <td className="bb">Remarks by Board of Governor of Bank Indonesia</td>
+              </tr>
+              <tr>
+                <td className="bb">10:00 - 10:15</td>
                 <td className="bb">Coffee Break</td>
               </tr>
               <tr>
-                <td className="bb"></td>
+                <td className="bb">10:15 - 12:00</td>
                 <td className="bb">Session I <br/>Panel Discussion: “Enhancing Indonesian tourism and creative economy”</td>
               </tr>
               <tr>
@@ -285,27 +318,27 @@ const IndexPage = () => (
                 <td className="bb">Networking Lunch</td>
               </tr>
               <tr>
-                <td>12:45 - 16:00</td>
+                <td className="bb">12:45 - 14:30</td>
                 <td className="bb">Session II
                     <br/>Panel Discussion: “Exploring infrastructure and tourism investment opportunities in Indonesia”
                 </td>
               </tr>
               <tr>
-                <td></td>
+                <td className="bb">14:30 - 14:45</td>
                 <td className="bb">Coffee Break</td>
               </tr>
               <tr>
-                <td></td>
+                <td className="bb">14:45 - 16:15</td>
                 <td className="bb">Session III
                     <br/>Panel discussion: “Investment on infrastructure & manufacturing industries in Indonesia
                 </td>
               </tr>
               <tr>
-                <td></td>
+                <td className="bb">16:15 - 16:25</td>
                 <td className="bb">Closing remarks by the Consulate General of the Republic of Indonesia in New York</td>
               </tr>
               <tr>
-                <td></td>
+                <td>16:25 - 17:00</td>
                 <td>Breakout Session</td>
               </tr>
             </tbody>
@@ -315,7 +348,7 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section id="sessions" className="section">
+    <section id="meetings" className="section">
       <div className="container">
         <div className="row align-center">
           <h3 className="mb-60 main-headline">One-on-One Meetings</h3>
@@ -333,10 +366,9 @@ const IndexPage = () => (
           <li>Overseas Private Investment Corporation</li>
           <li>Telin (Telkom Indonesia) USA</li>
           <li>Special Region of Yogyakarta (DIY)</li>
-          <li>PT Pan Brothers TbK</li>
+          <li>PT Pan Brothers Tbk</li>
           <li>PT Sarana Multi Infrastruktur</li>
           <li>Bukalapak</li>
-          <li>Indonesia Investment Coordinating Board</li>
         </ul>
         <p>To schedule a one-on-one session, please send an email to <a href="mailto:economicny@gmail.com">economicny@gmail.com</a> and <a href="mailto:TTINewYork@gmail.com">TTINewYork@gmail.com</a></p>
       </div>
@@ -347,9 +379,9 @@ const IndexPage = () => (
         <iframe title="google-maps" className="map-frame" frameBorder="0" src="https://www.google.com/maps/embed/v1/place?q=intercontinental%20hotel%20times%20square&key=AIzaSyCljp_s1lir-HRjlqpj4IdwCULGFtKnBBY" allowFullScreen></iframe>
         <div className="container contacts-on-map-container">
           <div className="contacts-on-map">
-            <h3 className="main-headline mt-0">Location</h3>
+            <h3 className="main-headline mt-0">Location & Contact</h3>
             <div><i className="fas fa-map-marked-alt"></i>300 W 44th St, New York, NY 10036</div>
-            <div><i className="fas fa-clock"></i>9:00 AM - 4:00 PM</div>
+            <div><i className="fas fa-clock"></i>9:00 AM - 5:00 PM</div>
             <div><i className="fas fa-envelope"></i><a href="mailto:economicny@gmail.com">economicny@gmail.com</a></div>
             <div><i className="fas fa-envelope"></i><a href="mailto:TTINewYork@gmail.com">TTINewYork@gmail.com</a></div>
           </div>
