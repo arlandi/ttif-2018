@@ -15,10 +15,15 @@ import mandiri from '../images/mandiri.png'
 import joseph from '../images/joseph.jpg'
 import thomas from '../images/thomas.jpg'
 import william from '../images/william.jpg'
-// import shinto from '../images/shinto.jpg'
+import shinto from '../images/shinto.jpg'
+import wayne from '../images/wayne.jpg'
+import cameron from '../images/cameron.jpg'
 import fajrin from '../images/fajrin.jpg'
 // import del from '../images/del.jpg'
 import anne from '../images/anne.jpg'
+import budi from '../images/budi.jpg'
+import noor from '../images/noor.jpg'
+import eri from '../images/eri.jpg'
 // import mari from '../images/mari.jpg'
 
 const IndexPage = () => (
@@ -115,7 +120,7 @@ const IndexPage = () => (
           </div>
           <div className="col-sm-3">
             <div className="speaker">
-              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
+              <div className="photo-wrapper"><img alt="" src={budi} className="img-responsive" /></div>
               <h3 className="name">H.E. Amb. Budi Bowoleksono</h3>
               <p className="text-alt"><small>Ambassador of the Republic of Indonesia to the United States of America</small></p>
             </div>
@@ -129,7 +134,7 @@ const IndexPage = () => (
           </div>
           <div className="col-sm-3">
             <div className="speaker">
-              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
+              <div className="photo-wrapper"><img alt="" src={cameron} className="img-responsive" /></div>
               <h3 className="name">Amb. Cameron Hume (2005-2010)</h3>
               <p className="text-alt"><small>Former United States Ambassador to Indonesia</small></p>
             </div>
@@ -145,7 +150,7 @@ const IndexPage = () => (
           </div>
           <div className="col-sm-3">
             <div className="speaker">
-              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
+              <div className="photo-wrapper"><img alt="" src={wayne} className="img-responsive" /></div>
               <h3 className="name">Wayne Forrest</h3>
               <p className="text-alt"><small>President<br/><br/>American Indonesian Chamber of Commerce</small></p>
             </div>
@@ -159,7 +164,7 @@ const IndexPage = () => (
           </div>
           <div className="col-sm-3">
             <div className="speaker">
-              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
+              <div className="photo-wrapper"><img alt="" src={shinto} className="img-responsive" /></div>
               <h3 className="name">Shinto Nugroho</h3>
               <p className="text-alt"><small>Chief Policy and Government Relations<br/><br/>GO-JEK</small></p>
             </div>
@@ -190,7 +195,7 @@ const IndexPage = () => (
           </div>
           <div className="col-sm-3">
             <div className="speaker">
-              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
+              <div className="photo-wrapper"><img alt="" src={eri} className="img-responsive" /></div>
               <h3 className="name">Eri Wibowo</h3>
               <p className="text-alt"><small>Head Division, Financing & Investment<br/><br/>PT Sarana Multi Infrastruktur</small></p>
             </div>
@@ -246,7 +251,7 @@ const IndexPage = () => (
           </div>
           <div className="col-sm-3">
             <div className="speaker">
-              <div className="photo-wrapper"><img alt="" src="//placehold.it/500x500" className="img-responsive" /></div>
+              <div className="photo-wrapper"><img alt="" src={noor} className="img-responsive" /></div>
               <h3 className="name">M. Noor Nugroho</h3>
               <p className="text-alt"><small>Deputy Director<br/><br/>Bank Indonesia</small></p>
             </div>
