@@ -206,7 +206,7 @@ export default class IndexPage extends React.Component {
                   <tr>
                     <td className="bb">12:45 - 14:30</td>
                     <td className="bb">Session II
-                        <br/>Panel Discussion: “Exploring infrastructure and tourism investment opportunities in Indonesia”
+                        <br/>Panel Discussion: “Exploring infrastructure investment opportunities in Indonesia”
                     </td>
                   </tr>
                   <tr>
@@ -216,7 +216,7 @@ export default class IndexPage extends React.Component {
                   <tr>
                     <td className="bb">14:45 - 16:15</td>
                     <td className="bb">Session III
-                        <br/>Panel discussion: “Investment on infrastructure & manufacturing industries in Indonesia
+                        <br/>Panel discussion: “Investment on manufacturing industries in Indonesia”
                     </td>
                   </tr>
                   <tr>
