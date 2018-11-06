@@ -6,7 +6,7 @@ import shinto from '../images/shinto.jpg'
 import wayne from '../images/wayne.jpg'
 import cameron from '../images/cameron.jpg'
 import fajrin from '../images/fajrin.jpg'
-// import del from '../images/del.jpg'
+import del from '../images/del.jpg'
 import anne from '../images/anne.jpg'
 import budi from '../images/budi.jpg'
 import noor from '../images/noor.jpg'
@@ -16,6 +16,7 @@ import arief from '../images/arief.jpg'
 import rahardjo from '../images/rahardjo.jpg'
 import person from '../images/person.jpg'
 import mari from '../images/mari.jpg'
+import sultan from '../images/sultan.jpg'
 
 export default [
     {
@@ -36,7 +37,7 @@ export default [
         name: "Hon. Sri Sultan Hamengkubuwono X",
         title: "Governor",
         company: "Special Region of Yogyakarta (DIY)",
-        picture: person,
+        picture: sultan,
         bio: "Sri Sultan Hamengku Buwono X is the Sultan of the historic Yogyakarta Sultanate in Indonesia. He is also the Governor of the modern Yogyakarta Special Region, a position he has held since 1998. Previously, he was the Member of Advisory Council of Golongan Karya (GOLKAR) Party Central Executive Board (2005-2010), the Chairman of National Sport Committee (KONI) of Yogyakarta Special Region (1990-1998), the Chairman of Chamber of Commerce and Industry (KADINDA) of Yogyakarta Special Region (1983-1998), and the Chairman of GOLKAR Party Regional Executive Board of Yogyakarta Special Region (1982-1997). He had received many honorary degrees from notable universities globally, including Doctor of Honoris Causa in Laws from University of Tasmania Australia, Hobart and Doctor of Honoris Causa in Disaster Management from Univeristy of Tun Hussein Onn, Johor Malaysia, among others. In 1982, he received a Bachelor’s degree in Public Administratin and Law from Gadjah Mada University, Yogyakarta.",
     },
     {
@@ -119,7 +120,7 @@ export default [
         name: "Del Renigar",
         title: "Executive Director, Global Government Affairs & Policy",
         company: "General Electric",
-        picture: person,
+        picture: del,
         bio: "Del Renigar is the Executive Director for Global Government Affairs & Policy at General Electric Company (GE). He advises GE businesses on foreign affairs, trade and investment, national security, market access, and government relations issues globally. He also serves on many trade association, businesses councils and US government advisory boards. Previously, he served as the Director of International Economics for the Western hemisphere on the National Security Council at the White House and he also served as the Senior Counsel to the General Counsel and Deputy Secretary of the U.S. Department of Commerce. Prior to his public service, he was a lawyer for Steptoe & Johnson specializing on trade controls, anti-bribery, arbitration, trade litigation, and trade policy. He received a Bachelor’s degree in Economics and Public Policy from Duke University, and a Master’s degree in Law from University of Michigan.",
     },
     {
