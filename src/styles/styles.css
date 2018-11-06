@@ -1031,6 +1031,7 @@ button.btn.btn-block {
 .speaker {
   margin-bottom: 40px;
   text-align: center;
+  cursor: pointer;
 }
 .speaker .photo-wrapper {
   margin: 0 auto 12px;
@@ -2214,6 +2215,22 @@ button.btn.btn-block {
 .mw-350 {
   max-width: 350px !important;
 }
+.speakers-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.speakers-container > .col-sm-3 {
+  height: 397px;
+  max-width: 25%;
+}
+@media (max-width: 480px) {
+  .speakers-container > .col-sm-3 {
+    height: auto;
+    max-width: 90%;
+  }
+}
 .bg-primary {
   background: linear-gradient(90deg,#16254b,#536bb2);
   padding: 28px 0;
@@ -2251,6 +2268,80 @@ button.btn.btn-block {
   .main-headline:after {
     top: 26px;
   }
+}
+
+.modal {
+	position: fixed;
+	top: 30%;
+	left: 50%;
+	width: 50%;
+	max-width: 630px;
+	min-width: 320px;
+	height: auto;
+	z-index: 2000;
+	visibility: hidden;
+  transform: translateX(-50%);
+}
+
+.modal-content {
+  -webkit-transform: scale(0.7);
+	-moz-transform: scale(0.7);
+	-ms-transform: scale(0.7);
+	transform: scale(0.7);
+	opacity: 0;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+  transition: all 0.3s;
+  background: white;
+  padding: 30px 50px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  border-radius: 2px;
+  position: relative;
+}
+
+@media (max-width: 480px) {
+  .modal {
+    top: 20%;
+  }
+  .modal-content {
+    height: 75vh;
+    overflow: scroll;
+  }
+}
+
+.close-modal {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  cursor: pointer;
+}
+
+.modal-show .modal-content{
+  visibility: visible;
+  -webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+
+.modal-overlay {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	visibility: hidden;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	opacity: 0;
+	background: rgba(0,0,0,0.5);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.modal-show ~ .modal-overlay {
+	opacity: 1;
+	visibility: visible;
 }
 /* ----------------------------------------------------------------------------
     Tables
