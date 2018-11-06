@@ -14,9 +14,9 @@ import eri from '../images/eri.jpg'
 import robert from '../images/robert.jpg'
 import arief from '../images/arief.jpg'
 import rahardjo from '../images/rahardjo.jpg'
-import person from '../images/person.jpg'
 import mari from '../images/mari.jpg'
 import sultan from '../images/sultan.jpg'
+import billy from '../images/billy.jpg'
 
 export default [
     {
@@ -28,8 +28,8 @@ export default [
     },
     {
         name: "H.E. Amb. Budi Bowoleksono",
-        title: "",
-        company: "Ambassador of the Republic of Indonesia to the United States of America",
+        title: "Ambassador of the Republic of Indonesia to the United States of America",
+        company: "",
         picture: budi,
         bio: "Ambassador Budi Bowoleksono is currently the Ambassador Extraordinary and Plenipotentiary of the Republic of Indonesia to the United States of America. Previously, Ambassador Bowoleksono served as the Ambassador Extraordinary and Plenipotentiary of the Republic of Indonesia to the Republic of Kenya in Nairobi (2008-2010), which also covers Seychelles, Mauritius, Uganda, UNEP, and UNHCR. Ambassador Bowoleksono graduated from Krisnadwipayana University in Jakarta in 1984. He started his diplomatic career at the Ministry of Foreign Affairs in 1986 and since then he had been assigned to the Permanent Mission of the Republic of Indonesia to the United Nations in New York, the Indonesian Permanent Mission in Geneva, and the Indonesian Permanent Mission in Vienna.",
     },
@@ -42,15 +42,15 @@ export default [
     },
     {
         name: "Amb. Cameron Hume",
-        title: "",
-        company: "Former United States Ambassador to the Republic of Indonesia (2005-2010)",
+        title: "Former United States Ambassador to the Republic of Indonesia (2005-2010)",
+        company: "",
         picture: cameron,
         bio: "Ambassador Cameron R. Hume was U.S. Ambassador to Indonesia from 2007 to 2010. He retired from the Foreign Service with a rank of Career Minister. While Ambassador to Indonesia, he focused on oceans, climate changes, and education as elements of “soft power” diplomacy. He has published three books and numerous articles on foreign policy Since leaving the Foreign Service, Ambassador Hume has served as a consultant to various interests based in Indonesia. Ambassador Hume holds a Bachelor's Degree from Princeton University (Princeton, NJ)) and Law Degree from the School of Law, American University (Washington, DC).",
     },
     {
         name: "Amb. Robert Blake",
-        title: "",
-        company: "Former United States Ambassador to the Republic of Indonesia (2015-2016)",
+        title: "Former United States Ambassador to the Republic of Indonesia (2014-2016)",
+        company: "",
         picture: robert,
         bio: "Ambassador Blake served for 31 years in the State Department in a wide range of leadership positions. From 2014-2016, he was the US Ambassador to Indonesia, where he focused on building stronger business and educational ties between the US and Indonesia, while also developing cooperation to help Indonesia reduce greenhouse gas emissions. He is currently Chairman of the Board of the US-Indonesia Society, and he is a member of the board of the Asia Foundation and the Bhutan Foundation. Ambassador Blake holds a BA from Harvard College, and an MA from the Johns Hopkins School of Advanced International Studies in Washington, DC.",
     },
@@ -124,13 +124,6 @@ export default [
         bio: "Del Renigar is the Executive Director for Global Government Affairs & Policy at General Electric Company (GE). He advises GE businesses on foreign affairs, trade and investment, national security, market access, and government relations issues globally. He also serves on many trade association, businesses councils and US government advisory boards. Previously, he served as the Director of International Economics for the Western hemisphere on the National Security Council at the White House and he also served as the Senior Counsel to the General Counsel and Deputy Secretary of the U.S. Department of Commerce. Prior to his public service, he was a lawyer for Steptoe & Johnson specializing on trade controls, anti-bribery, arbitration, trade litigation, and trade policy. He received a Bachelor’s degree in Economics and Public Policy from Duke University, and a Master’s degree in Law from University of Michigan.",
     },
     {
-        name: "Dr. Cris Kuntadi",
-        title: "Commissioner",
-        company: "The Indonesian Railways Company",
-        picture: person,
-        bio: "Dr. Cris Kuntadi is the Commissioner of Indonesian Railway Company (PT. Kereta Api Indonesia), the major operator of public railways in Indonesia. Dr. Kuntadi has an extensive education background. He has an Associates Degree in Accounting from the Indonesian State College of Accountancy (STAN), Jakarta (1991), a  Bachelor of Economics degree from the University of Indonesia (1996). He also has a Master of Management degree from Gadjah Mada University and a Master in International Business from Erasmus Universiteit Rotterdam, Netherland (2000). Finally, he received his degree of Doctor of Administrative Sciences from Brawijaya University, Malang in 2009",
-    },
-    {
         name: "Anne Patricia Sutanto",
         title: "Vice CEO",
         company: "PT Pan Brothers Tbk",
@@ -148,7 +141,7 @@ export default [
         name: "Billy Anugrah",
         title: "Director",
         company: "Indonesia Trade Promotion Center",
-        picture: person,
+        picture: billy,
         bio: "Mr. Billy Anugrah is the Director of Indonesian Trade Promotion Center ITPC, Chicago Branch (Chicago, IL). He has extensive government service experience with the Ministry of Trade of Indonesia. Previously, Mr. Anugrah worked as the Section Head for Cross sectoral dan Regional Cooperation, in the Planning Bureau (2015-2017), and as Section Head, Agriculture and Forestry products, in the Directorate of Import (2013-2015), where he was in charge for policy developments and regulations on agriculture and forestry product imports ). He started his role in the ministry as a Multilateral Trade Negotiator and Policy Analyst (2009-2012). Mr. Anugrah holds a Masters of Development Policy from the Korean Development Institute (Seoul, South Korea) and a Bachelors of Law from Pancasila University (Depok, Indonesia)",
     }
 ];

@@ -130,7 +130,7 @@ export default class IndexPage extends React.Component {
                       <div className="photo-wrapper"><img alt="" src={speaker.picture} className="img-responsive" /></div>
                       <h3 className="name">{speaker.name}</h3>
                       <p className="text-alt"><small>
-                        <i>{speaker.title}</i>
+                        <i><strong>{speaker.title}</strong></i>
                         {speaker.title && <br/>}
                         {speaker.company}</small></p>
                     </div>
@@ -250,7 +250,7 @@ export default class IndexPage extends React.Component {
             <ul>
               <li>General Electric</li>
               <li>Overseas Private Investment Corporation</li>
-              <li>Telin (Telkom Indonesia) USA</li>
+              <li>Telekomunikasi Indonesia USA</li>
               <li>Special Region of Yogyakarta (DIY)</li>
               <li>PT Pan Brothers Tbk</li>
               <li>PT Sarana Multi Infrastruktur</li>
