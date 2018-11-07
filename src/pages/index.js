@@ -45,9 +45,9 @@ export default class IndexPage extends React.Component {
               <div className="container">
                   <h5 className="heading-alt"><span className="fas fa-calendar-alt base-clr-txt"></span>nov 8 <span className="fas fa-map-marker-alt base-clr-txt"></span>New York, NY</h5>
                   <h1 className="extra-heading">Business Forum on Trade, Tourism & Investment in Indonesia</h1>
-                  <div className="btns-container">
+                  { /*<div className="btns-container">
                       <a target="_blank" rel="noopener noreferrer" href="https://www.eventbrite.com/e/business-forum-on-trade-tourism-and-investment-in-indonesia-registration-50909800584" className="btn btn-md">REGISTER</a>
-                  </div>
+                  </div> */ }
               </div>
           </div>
         </section>
@@ -75,7 +75,7 @@ export default class IndexPage extends React.Component {
                           <li className="navigation-item"><a href="#meetings" className="navigation-link">One-on-One Meetings</a></li>
                           <li className="navigation-item"><a href="#map" className="navigation-link">Location</a></li>
                       </ul>
-                      <a target="_blank" rel="noopener noreferrer" href="https://www.eventbrite.com/e/business-forum-on-trade-tourism-and-investment-in-indonesia-registration-50909800584" className="pull-right buy-btn">Register</a>
+                      { /*<a target="_blank" rel="noopener noreferrer" href="https://www.eventbrite.com/e/business-forum-on-trade-tourism-and-investment-in-indonesia-registration-50909800584" className="pull-right buy-btn">Register</a>*/ }
                   </div>
               </div>
             </div>
@@ -184,11 +184,15 @@ export default class IndexPage extends React.Component {
                     <td className="bb">Opening Remarks by the Ambassador of the Republic of Indonesia to the United States</td>
                   </tr>
                   <tr>
-                    <td className="bb">9:10 - 9:45</td>
-                    <td className="bb">Remarks by the Chairman of Indonesia Investment Coordinating Board</td>
+                    <td className="bb">9:10 - 9:15</td>
+                    <td className="bb">Remarks by the Chairman of the Committee</td>
                   </tr>
                   <tr>
-                    <td className="bb">9:45 - 10:00</td>
+                    <td className="bb">9:15 - 9:50</td>
+                    <td className="bb">Keynote Speech by the Chairman of Indonesia Investment Coordinating Board</td>
+                  </tr>
+                  <tr>
+                    <td className="bb">9:50 - 10:00</td>
                     <td className="bb">Remarks by Board of Governor of Bank Indonesia</td>
                   </tr>
                   <tr>
@@ -221,7 +225,7 @@ export default class IndexPage extends React.Component {
                   </tr>
                   <tr>
                     <td className="bb">16:15 - 16:25</td>
-                    <td className="bb">Closing remarks by the Consulate General of the Republic of Indonesia in New York</td>
+                    <td className="bb">Closing remarks</td>
                   </tr>
                   <tr>
                     <td>16:25 - 17:00</td>

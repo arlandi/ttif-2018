@@ -16,7 +16,8 @@ import arief from '../images/arief.jpg'
 import rahardjo from '../images/rahardjo.jpg'
 import mari from '../images/mari.jpg'
 import sultan from '../images/sultan.jpg'
-import billy from '../images/billy.jpg'
+import tri from '../images/tri.jpg'
+import winanto from '../images/winanto.jpg'
 
 export default [
     {
@@ -42,7 +43,7 @@ export default [
     },
     {
         name: "Amb. Cameron Hume",
-        title: "Former United States Ambassador to the Republic of Indonesia (2005-2010)",
+        title: "Former United States Ambassador to the Republic of Indonesia (2007-2010)",
         company: "",
         picture: cameron,
         bio: "Ambassador Cameron R. Hume was U.S. Ambassador to Indonesia from 2007 to 2010. He retired from the Foreign Service with a rank of Career Minister. While Ambassador to Indonesia, he focused on oceans, climate changes, and education as elements of “soft power” diplomacy. He has published three books and numerous articles on foreign policy Since leaving the Foreign Service, Ambassador Hume has served as a consultant to various interests based in Indonesia. Ambassador Hume holds a Bachelor's Degree from Princeton University (Princeton, NJ)) and Law Degree from the School of Law, American University (Washington, DC).",
@@ -66,7 +67,13 @@ export default [
         title: "Former Trade Minister of the Republic of Indonesia",
         company: "",
         picture: mari,
-        bio: "Dr Mari Pangestu served as Indonesia's Minister of Trade from 2004 to 2011, and as Minister of Tourism and Creative Economy from 2011 until October 2014. Dr Pangestu obtained her Bachelor's and Master's degrees from the Australian National University and her PhD from the University of California, Davis, where she specialized in macroeconomics, and international trade and finance.",
+        bio: "Mari Pangestu is Senior Fellow at Columbia School of International and Public Affairs, Professor of International Economics at the University of Indonesia, Board Member of Indonesia Bureau of Economic Research (IBER) and on the Board of Trustees, Centre for Strategic and International Studies Foundation, Jakarta. She currently serves on a number of boards such as the Leadership Council of the UN Sustainable Development Solutions Network (SDSN); Member of the High Level Commission on Carbon Prices; Distinguished Fellow Asia Global Institute, University of Hong Kong; Board Member to Australia Indonesia Council; Member of Editorial Board of Bulletin of Indonesian Economic Studies, ANU; Member of the Global Future Council on Trade and Investment, World Economic Forum; and President of the United in Diversity (UID) Foundation, Jakarta.",
+    },
+    {
+        name: "Winanto Adi",
+        title: "Consul for Economic Affairs",
+        company: "Consulate General of the Republic of Indonesia in New York",
+        picture: winanto,
     },
     {
         name: "M. Noor Nugroho",
@@ -101,6 +108,7 @@ export default [
         title: "Head of Investment",
         company: "Regional Government of the Special Region of Yogyakarta",
         picture: arief,
+        bio: `Graduated from UGM political Science Dept in 1991, joint MFA 1993, assignment abroad, Khartoum Sudan, Stockholm Sweden, Jeddah KSA, Amman Jordan. Since May 2018 as Head of Int'l Cooperation & Investment Agency, Yogyakarta Special Region`,
     },
     {
         name: "William Pegues",
@@ -138,10 +146,10 @@ export default [
         bio: "Rahardjo Siswohartono is the Director of Indonesia Investment Promotion Center (IIPC) New York. IIPC New York is a representative office of Indonesia Investment Coordinating Board (BKPM) in the US in charge of promoting and facilitating inward and outward investment in Indonesia. Previously, he was the Deputy Director of Indonesia Investment Promotion Center (IIPC) for Japan and China region from 2012 to 2015. He served as the Chief of Staff to Chairman of BKPM from 2008 to 2010. Mr. Siswohartono received a Bachelor’s degree in Forestry from Gadjah Mada University and a Master’s degree in Public Policy from University of Indonesia.",
     },
     {
-        name: "Billy Anugrah",
-        title: "Director",
-        company: "Indonesia Trade Promotion Center",
-        picture: billy,
-        bio: "Mr. Billy Anugrah is the Director of Indonesian Trade Promotion Center ITPC, Chicago Branch (Chicago, IL). He has extensive government service experience with the Ministry of Trade of Indonesia. Previously, Mr. Anugrah worked as the Section Head for Cross sectoral dan Regional Cooperation, in the Planning Bureau (2015-2017), and as Section Head, Agriculture and Forestry products, in the Directorate of Import (2013-2015), where he was in charge for policy developments and regulations on agriculture and forestry product imports ). He started his role in the ministry as a Multilateral Trade Negotiator and Policy Analyst (2009-2012). Mr. Anugrah holds a Masters of Development Policy from the Korean Development Institute (Seoul, South Korea) and a Bachelors of Law from Pancasila University (Depok, Indonesia)",
+        name: "Tri Hartono",
+        title: "General Manager",
+        company: "Bank Rakyat Indonesia (BRI)",
+        picture: tri,
+        bio: "He is responsible in supervising, directing, and coordinating all aspects of BRI’s business units in the United States, including Wholesale Banking, Trade Finance, and Corporate Finance, among others. He started his career in BRI since 1999. Mr. Hartono holds a Master of Business Administration degree from Clark University, MA and a Bachelor’s degree in Accounting from University of Padjajaran, Indonesia.",
     }
 ];
