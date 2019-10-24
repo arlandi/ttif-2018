@@ -39,7 +39,7 @@ export default class IndexPage extends React.Component {
                   <h1 className="extra-heading">Investment for Economic and Social Upgrading</h1>
                   <h4>New York, November 2019</h4>
                   <h1>COMING SOON</h1>
-                  <h6><Link to="/2018/">Trade Tourism Investment Forum 2018</Link></h6>
+                  <h6><Link to="/2018/">Check out our past event</Link></h6>
                       { /*<div className="btns-container">
                       <a target="_blank" rel="noopener noreferrer" href="https://www.eventbrite.com/e/business-forum-on-trade-tourism-and-investment-in-indonesia-registration-50909800584" className="btn btn-md">REGISTER</a>
                   </div> */ }
