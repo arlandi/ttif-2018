@@ -30,6 +30,9 @@ body {
 .uppercase {
   text-transform: uppercase;
 }
+.yellow {
+  color: #ffde59 !important;
+}
 h1 {
   font-size: 60px;
 }

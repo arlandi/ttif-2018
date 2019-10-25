@@ -35,9 +35,12 @@ export default class IndexPage extends React.Component {
         <section id="hero" className="hero-section bg1 bg-cover window-height light-text">
           <div className="heading-block centered-block align-center">
               <div className="container">
-                  <h4 className="heading-alt">Indonesia-US Business Forum:</h4>
-                  <h1 className="extra-heading">Investment for Economic and Social Upgrading</h1>
-                  <h4>New York, November 2019</h4>
+                  <h1 className="extra-heading">BUSINESS FORUM ON</h1>
+                  <h1 className="extra-heading yellow">TRADE, TOURISM & INVESTMENT</h1>
+                  <h1 className="extra-heading">IN INDONESIA</h1>
+                  <h4>Monday, 18 November 2019</h4>
+                  <h4>Intercontinental Hotel Times Square</h4>
+                  <h4>300 W 44th St, New York, NY, 10036</h4>
                   <h1>COMING SOON</h1>
                   <h6><Link to="/2018/">Check out our past event</Link></h6>
                       { /*<div className="btns-container">
